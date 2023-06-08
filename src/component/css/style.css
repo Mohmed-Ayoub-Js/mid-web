@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.header-header{
+    margin: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    height: 100px;
+    box-shadow: 0 0 20px 0 black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo-website{
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    width: 30%;
+    cursor: pointer;
+    
+}
+.part-one-of-logo{
+    font-family: 'Tilt Prism', cursive;
+    color: blue;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.logo-website:hover{
+    font-size: 40px;
+}
+.header-About{
+    margin-top: 20px;
+}
+.header-link{
+    border-radius: 40px 40px 40px 40px;
+}
+.link-a-element{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 40px 40px 40px 40px;
+}
+.link-a-element:hover{
+    text-decoration: blue;
+    color: blue;
+    background-color: white;
+    box-shadow:  0 0 20px 0 white;
+}
+.search-element {
+    width: 700px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+.theme-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+  
+.theme-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+.theme-button {
+    color: white;
+}
+  
+.theme-button.light-mode {
+    color: black;
+  }
+   
+.search-element:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 5px #0066cc;
+}
+.content{
+    padding-top: 200px;
+}
+.logo-website-down-header{
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+    font-size: 40px;
+    transition: 0.5s;
+    width: 30%;
+    cursor: pointer;
+    border-radius: 40px 40px 40px 40px;
+   
+}
+.beautiful-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    cursor: pointer;
+    float: left;
+    margin-left: 490px;
+
+}
+  
+.beautiful-button:hover {
+    background-color: #444;
+}
+  
+  
+
+
+@media screen and (max-width: 600px) {
+    .link-a-element{
+        padding: 4px;
+        font-size: 12px;
+        
+    }
+    .logo-website{
+        font-family: 'Tilt Prism', cursive;
+        color: white;
+        font-size: 20px;
+        transition: 0.5s;
+        width: 85%;
+        cursor: pointer;
+    }
+    .search-element{
+        height: 20px;
+    }
+    .header-header{
+        height: 120px;
+    }
+    .search-element{
+        width: 100%;
+    }
+    .logo-website-down-header{
+        font-size: 30px;
+        width: 100%;
+    }
+  }
+
+  
