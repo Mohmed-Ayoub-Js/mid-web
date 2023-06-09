@@ -99,9 +99,7 @@
     font-size: 40px;
     transition: 0.5s;
     width: 30%;
-    cursor: pointer;
     border-radius: 40px 40px 40px 40px;
-   
 }
 .beautiful-button {
     background-color: #333;
@@ -117,14 +115,220 @@
     margin-left: 490px;
 
 }
-  
 .beautiful-button:hover {
     background-color: #444;
 }
+#try{
+    margin-left: 120px;
+
+}
+
+.card {
+    justify-items: center;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 10px;
+}
+  
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+  
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.title-h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.p {
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+}
+.button-div-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.button-button-start {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.button-button-start:hover {
+    background-color: #0056b3;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.left,
+.right {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+ }
+  
+.left:hover,
+.right:hover {
+    background-color: #0056b3;
+}
+.number-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+  }
+  
+.button-number-year {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+  
+.button-number-year:hover {
+    background-color: #0056b3;
+  }
+
+.title-select-year{
+    margin-top: 40px;
+}
+
+.line{
+    width: 100%;
+    margin-top: 290px;
+}
+.header-year{
+    background-color: #272829;
+    box-shadow: 0 0 4px 0 white;
+    padding: 40px;
+}
+.header-wwdo {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title-div-about-what-we-do-offer {
+    margin-bottom: 20px;
+  }
+  
+  .title-of-what-we-do-offer {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .text-about-we-do-offer {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+  
+.text-about-we-do-offer::before {
+    content: open-quote;
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 5px;
+}
+  
+.text-about-we-do-offer::after {
+    content: close-quote;
+    font-size: 24px;
+    color: #007bff;
+    margin-left: 5px;
+ }
+.con-what-we-do-offer{
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.header-year {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .line {
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .title-select-year {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .number-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .button-number-year {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button-number-year:hover {
+    background-color: #0056b3;
+  }
+  .header-Down {
+    text-align: center;
+    background-color: #272829;
+    padding: 20px;
+    box-shadow: 0 0 4px 0 white;
+
+  }
+  
+  .copy-rights {
+    font-size: 14px;
+    color: #555;
+  }
   
   
-
-
 @media screen and (max-width: 600px) {
     .link-a-element{
         padding: 4px;

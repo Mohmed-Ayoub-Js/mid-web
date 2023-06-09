@@ -1,8 +1,6 @@
 import React from "react";
 import "../css/style.css";
 import Link from "../link/Link";
-
-
 function Header(){
     return(
         <div className="header-header" id="headerall">

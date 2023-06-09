@@ -6,7 +6,7 @@ function About() {
     <div className="header-About">
         <center>
             <h1 className="logo-website-down-header">
-                medcine algeria
+                medicine algeria
             </h1>
             <center>
                 <h2>
@@ -14,11 +14,12 @@ function About() {
                 </h2>
                 <br />
                 <button class="beautiful-button">get start</button>
+                <button class="beautiful-button" id="try">try now</button>
 
             </center>
         </center>
     </div>
-    </div>
+</div>
  )
 
 }
